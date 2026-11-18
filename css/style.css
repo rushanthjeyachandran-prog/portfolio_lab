@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+:root { --brand: #2965f1; }
+body { font-family: Arial, sans-serif; line-height: 1.5; margin: 0; }
+header { background: var(--brand); color: white; padding: 2rem; text-align:
+center; }
+nav { display: flex; gap: 1.5rem; padding: 1rem 2rem; background: #1e293b; }
+nav a { color: white; text-decoration: none; transition: color 0.2s; }
+nav a:hover { color: #f0b90b; }
+main { max-width: 800px; margin: 0 auto; padding: 1rem; }
+section { padding: 1.5rem; margin-bottom: 1rem; border-radius: 12px;
+ box-shadow: 0 4px 12px rgb(0 0 0 / 12%); }
+img { max-width: 100%; border-radius: 50%; width: 140px; }
+.done { text-decoration: line-through; color: #64748b; }
+@media (min-width: 768px) {
+  footer { text-align: center; padding: 1rem; }
+  #skills ul { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+}
